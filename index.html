@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta property="og:title" content="Soul's Profile">
+<meta property="og:description" content="Hey! Click to check out my new web profile!">
+<meta property="og:url" content="https://soul.dedyn.io">
+<meta property="og:type" content="website">
+
+<meta name="theme-color" content="#2fb47e">
+
+<title>Soul // About</title>
+
+<style>
+html,body{
+margin:0;
+padding:0;
+background:#0f0f0f;
+overflow-x:hidden;
+}
+</style>
+
+</head>
+
+<body>
+
+<script>
+
+window.addEventListener(
+
+[
+'D','O','M',
+'C','o','n','t',
+'e','n','t',
+'L','o','a','d',
+'e','d'
+].join(''),
+
+()=>{
+
+(function(){
+
+const ___0x9281=(x)=>
+atob(
+x
+.split('')
+.reverse()
+.join('')
+);
+
+const ____=(x)=>
+x
+.replace(/./g,m=>
+m+'\u2060'
+);
+
+const _____=(x)=>
+x
+.split('')
+.map(c=>
+Math.random()>.5
+?c
+:String.fromCharCode(c.charCodeAt(0))
+)
+.join('');
+
+const _______0xA='banana';
+const _______0xB='microwave';
+const _______0xC='toaster';
+const _______0xD=Math.random()*0;
+
+const __0xD=document;
+
+const ___style=
+__0xD[
+[
+'c','r','e','a',
+'t','e','E','l',
+'e','m','e','n',
+'t'
+].join('')
+](
+[
+'s','t','y','l','e'
+].join('')
+);
+
+___style.innerHTML=
+
+[
+
+'@import ',
+'url(',
+'"https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;500&family=Outfit:wght@300;600&display=swap"',
+');',
+
+':root{',
+'--bg-deep:#0f0f0f;',
+'--card-bg:#1a1a1a;',
+'--accent-purple:#2fb47e;',
+'--accent-dim:#249066;',
+'--accent-light:#45c992;',
+'--text-gray:#a0a0a0;',
+'--text-white:#ffffff;',
+'}',
+
+'*{',
+'margin:0;',
+'padding:0;',
+'box-sizing:border-box;',
+'}',
+
+'body{',
+'font-family:"Outfit",sans-serif;',
+'background-color:var(--bg-deep);',
+'color:var(--text-white);',
+'display:flex;',
+'justify-content:center;',
+'align-items:center;',
+'min-height:100vh;',
+'padding:20px;',
+'}',
+
+'.container{',
+'width:100%;',
+'max-width:850px;',
+'background:var(--card-bg);',
+'border:1px solid #2a2a2a;',
+'border-radius:24px;',
+'padding:3.2rem 4rem;',
+'display:grid;',
+'grid-template-columns:1fr 1.2fr;',
+'gap:4rem;',
+'position:relative;',
+'box-shadow:0 30px 60px rgba(0,0,0,.5);',
+'opacity:0;',
+'transform:translateY(20px);',
+'transition:all .8s ease-out;',
+'}',
+
+'.container.loaded{',
+'opacity:1;',
+'transform:translateY(0);',
+'}',
+
+'.profile-side{',
+'display:flex;',
+'flex-direction:column;',
+'align-items:flex-start;',
+'}',
+
+'.avatar{',
+'width:100px;',
+'height:100px;',
+'border-radius:50%;',
+'background:linear-gradient(45deg,#222,#333);',
+'margin-bottom:1.5rem;',
+'border:1px solid #444;',
+'overflow:hidden;',
+'display:flex;',
+'align-items:center;',
+'justify-content:center;',
+'}',
+
+'h1{',
+'font-size:2.2rem;',
+'margin-bottom:.5rem;',
+'color:var(--accent-purple);',
+'}',
+
+'.status{',
+'font-family:"JetBrains Mono",monospace;',
+'font-size:.8rem;',
+'color:var(--accent-dim);',
+'text-transform:uppercase;',
+'letter-spacing:2px;',
+'margin-bottom:1.5rem;',
+'}',
+
+'.description{',
+'color:var(--text-gray);',
+'line-height:1.7;',
+'font-size:.95rem;',
+'margin-bottom:1.5rem;',
+'}',
+
+'.content-side{',
+'display:flex;',
+'flex-direction:column;',
+'gap:2rem;',
+'width:100%;',
+'}',
+
+'.category-header{',
+'display:flex;',
+'align-items:center;',
+'gap:12px;',
+'margin-bottom:1rem;',
+'}',
+
+'.section-title{',
+'font-family:"JetBrains Mono",monospace;',
+'font-size:.75rem;',
+'color:var(--text-white);',
+'text-transform:uppercase;',
+'white-space:nowrap;',
+'letter-spacing:1px;',
+'}',
+
+'.header-line{',
+'flex-grow:1;',
+'height:1px;',
+'background:#2a2a2a;',
+'}',
+
+'.btn-grid{',
+'display:flex;',
+'flex-direction:column;',
+'gap:15px;',
+'width:100%;',
+'}',
+
+'.animated-btn{',
+'position:relative;',
+'background:#111;',
+'padding:1px;',
+'border-radius:12px;',
+'text-decoration:none;',
+'overflow:hidden;',
+'display:block;',
+'width:100%;',
+'}',
+
+'.animated-btn::before{',
+'content:"";',
+'position:absolute;',
+'top:-50%;',
+'left:-50%;',
+'width:200%;',
+'height:200%;',
+'background:conic-gradient(transparent,transparent,transparent,var(--accent-purple));',
+'animation:rotate 4s linear infinite;',
+'opacity:0;',
+'transition:opacity .3s;',
+'}',
+
+'.animated-btn:hover::before{',
+'opacity:1;',
+'}',
+
+'@keyframes rotate{',
+'100%{transform:rotate(1turn);}',
+'}',
+
+'.btn-inner{',
+'background:var(--card-bg);',
+'padding:16px 20px;',
+'border-radius:11px;',
+'position:relative;',
+'z-index:1;',
+'display:flex;',
+'justify-content:space-between;',
+'align-items:center;',
+'color:var(--accent-purple);',
+'transition:background .3s;',
+'width:100%;',
+'}',
+
+'.animated-btn:hover .btn-inner{',
+'background:#222;',
+'}',
+
+'.btn-inner span:first-child{',
+'flex-grow:1;',
+'}',
+
+'.btn-inner span:last-child{',
+'font-family:"JetBrains Mono",monospace;',
+'font-size:.7rem;',
+'color:var(--accent-dim);',
+'text-align:right;',
+'padding-left:10px;',
+'}',
+
+'.link-row{',
+'display:flex;',
+'gap:15px;',
+'margin-top:5px;',
+'}',
+
+'.nav-link{',
+'color:var(--text-gray);',
+'text-decoration:none;',
+'font-size:.85rem;',
+'transition:color .3s;',
+'}',
+
+'.nav-link:hover{',
+'color:var(--accent-purple);',
+'}',
+
+'.footer-copyright{',
+'position:absolute;',
+'bottom:30px;',
+'width:100%;',
+'text-align:center;',
+'font-family:"JetBrains Mono",monospace;',
+'font-size:.7rem;',
+'color:var(--text-gray);',
+'opacity:.5;',
+'text-transform:uppercase;',
+'letter-spacing:1.5px;',
+'pointer-events:none;',
+'}',
+
+'@media(max-width:768px){',
+
+'body{',
+'flex-direction:column;',
+'}',
+
+'.container{',
+'grid-template-columns:1fr;',
+'padding:2rem;',
+'gap:2rem;',
+'}',
+
+'.profile-side,.content-side{',
+'align-items:center;',
+'text-align:center;',
+'}',
+
+'.link-row{',
+'justify-content:center;',
+'flex-wrap:wrap;',
+'}',
+
+'.footer-copyright{',
+'position:static;',
+'margin-top:2rem;',
+'}',
+
+'}'
+
+].join('');
+
+document.head.appendChild(___style);
+
+const __APP=
+document.createElement(
+[
+'d','i','v'
+].join('')
+);
+
+__APP.className=
+[
+'c','o','n','t',
+'a','i','n','e',
+'r'
+].join('');
+
+__APP.innerHTML=[
+
+'<div class="profile-side">',
+
+'<div class="avatar">',
+
+'<img src="avatar2.png" ',
+'style="width:100%;height:100%;object-fit:contain;">',
+
+'</div>',
+
+'<h1 id="soulTitle">',
+
+_____(
+____(
+'Ѕоul'
+)
+),
+
+'</h1>',
+
+'<div class="status">',
+
+_____(
+____(
+'A Chill Developer'
+)
+),
+
+'</div>',
+
+'<p class="description">',
+
+_____(
+____(
+"Hey, I'm Soul! I make cool web scripts, apps, Discord bots, and more! I also love to work with music and starting into sketches / art! If you want to chat or commission a project, feel free to reach out on my socials!"
+)
+),
+
+'</p>',
+
+'<div class="link-row">',
+
+'<a class="nav-link" href="',
+[
+'laiciffOveDluoS/moc.buhtig//:sptth'
+]
+.join('')
+.split('')
+.reverse()
+.join(''),
+'">',
+_____(
+____('GitHub')
+),
+'</a>',
+
+'<a class="nav-link" href="',
+[
+'veDehTlu0S/moc.x//:sptth'
+]
+.join('')
+.split('')
+.reverse()
+.join(''),
+'">',
+_____(
+____('Twitter')
+),
+'</a>',
+
+'<a class="nav-link" href="',
+[
+'9246028082555914521/sresu/moc.drocsid//:sptth'
+]
+.join('')
+.split('')
+.reverse()
+.join(''),
+'">',
+_____(
+____('Discord')
+),
+'</a>',
+
+'<a class="nav-link" href="',
+[
+'moc.liamg@tenluos.gnipoleved:otliam'
+]
+.join('')
+.split('')
+.reverse()
+.join(''),
+'">',
+_____(
+____('Email')
+),
+'</a>',
+
+'</div>',
+'</div>',
+
+'<div class="content-side">',
+
+'<div>',
+
+'<div class="category-header">',
+'<span class="section-title">',
+_____(
+____('🗁 Learn More')
+),
+'</span>',
+'<div class="header-line"></div>',
+'</div>',
+
+'<div class="btn-grid">',
+
+'<a href="portfolio" class="animated-btn">',
+'<div class="btn-inner">',
+'<span>',
+_____(
+____('Portfolio')
+),
+'</span>',
+'<span>-></span>',
+'</div>',
+'</a>',
+
+'<a href="commissions" class="animated-btn">',
+'<div class="btn-inner">',
+'<span>',
+_____(
+____('Commissions')
+),
+'</span>',
+'<span>-></span>',
+'</div>',
+'</a>',
+
+'</div>',
+'</div>',
+
+'<div>',
+
+'<div class="category-header">',
+'<span class="section-title">',
+_____(
+____('🌐︎ Supported Projects')
+),
+'</span>',
+'<div class="header-line"></div>',
+'</div>',
+
+'<div class="btn-grid">',
+
+'<a href="https://seedloaf.com" class="animated-btn">',
+'<div class="btn-inner">',
+'<span>',
+_____(
+____('Seedloaf Hosting')
+),
+'</span>',
+'<span>04 / 2024</span>',
+'</div>',
+'</a>',
+
+'<a href="https://directum.org/" class="animated-btn">',
+'<div class="btn-inner">',
+'<span>',
+_____(
+____('Directum.org')
+),
+'</span>',
+'<span>03 / 2026</span>',
+'</div>',
+'</a>',
+
+'<a href="https://www.bump4you.com/" class="animated-btn">',
+'<div class="btn-inner">',
+'<span>',
+_____(
+____('Bump4You')
+),
+'</span>',
+'<span>3 / 2023</span>',
+'</div>',
+'</a>',
+
+'</div>',
+'</div>',
+'</div>'
+
+].join('');
+
+document.body.appendChild(__APP);
+
+const __footer=
+document.createElement('div');
+
+__footer.className=
+'footer-copyright';
+
+__footer.innerHTML=
+_____(
+____(
+'© 2026 Soul. All Rights Reserved.'
+)
+);
+
+document.body.appendChild(__footer);
+
+setTimeout(()=>{
+
+__APP.classList.add('loaded');
+
+},100);
+
+const ___title=
+document.querySelector('#soulTitle');
+
+let ____brightness=1;
+
+setInterval(()=>{
+
+____brightness=
+____brightness===1
+?0.8
+:1;
+
+___title.style.transition=
+'opacity 2s ease-in-out';
+
+___title.style.opacity=
+____brightness;
+
+},2000);
+
+})();
+});
+
+</script>
+
+</body>
+</html>
